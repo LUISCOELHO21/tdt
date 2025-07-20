@@ -1,0 +1,39 @@
+# Query: <head>
+# ContextLines: 1
+
+8 resultados - 7 arquivos
+ment
+eleor • assets\js\app.js:
+  23085  /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6__);
+  23086: ⟪ 2417 characters skipped ⟫hemeProvider: Please return an object from your "theme" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n',8:'ThemeProvider: Please make your "theme" prop an object.\n\n',9:"Missing document `<head>`\n\n",10:"Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",11:"_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",12:"It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper which ensures the styles are injected correctly. See https://www.styled-components.com/docs/api#css\n\n",13:"%s is not a styled component and cannot be referred to via component selector. S⟪ 20365 characters skipped ⟫ production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."),t.server&&h(l,e,t,o,n),(0,react__WEBPACK_IMPORTED_MODULE_1__.useLayoutEffect)((function(){if(!t.server)return h(l,e,t,o,n),function(){return u.removeStyles(l,t)}}),[l,e,t,o,n]),null}function h(e,t,n,r,o){if(u.isStatic)u.renderStyles(e,O,n,o);else{var s=v({},t,{theme:Re(t,r,l.defaultProps)});u.renderStyles(e,s,n,o)}}return true&&Oe(a),react__WEBPACK_IMPORTED_MODULE_1___default().memo(l)}function Ue(e){ true&&"undefined"!=typeof navigator&&"ReactNative"===navigator.product&&console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];var o=Ce.apply(void 0,[e].concat(n)).join(""),s=xe(o);return new ve(s,o)}var Je=function(){function e(){var e=this;this._emitSheetCSS=function(){var t=e.instance.toString();if(!t)return"";var n=q();return"<style "+[n&&'nonce="'+n+'"',A+'="true"','data-styled-version="5.3.3"'].
+  23087  //# sourceMappingURL=styled-components.browser.esm.js.map
+
+elementor • core\app\view.php:
+  19  <html <?php language_attributes(); ?>>
+  20: 	<head>
+  21  		<meta charset="utf-8" />
+
+elementor • includes\frontend.php:
+  228  
+  229: 		// Priority 7 to allow google fonts in header template to load in <head> tag
+  230  		add_action( 'wp_head', [ $this, 'print_fonts_links' ], 7 );
+
+elementor • includes\editor-templates\editor-wrapper.php:
+  26  <html <?php language_attributes(); ?>>
+  27: <head>
+  28  	<meta charset="utf-8" />
+
+elementor • modules\page-templates\templates\canvas.php:
+  13  <html <?php language_attributes(); ?>>
+  14: <head>
+  15  	<meta charset="<?php bloginfo( 'charset' ); ?>">
+
+elementor-pro • modules\custom-code\custom-code-metabox.php:
+  64  		return [
+  65: 			self::OPTION_LOCATION_HEAD => '<head>',
+  66  			self::OPTION_LOCATION_BODY_START => sprintf(
+
+elementor-pro • modules\theme-builder\views\theme-support-header.php:
+  12  <html <?php language_attributes(); ?>>
+  13: <head>
+  14  	<meta charset="<?php bloginfo( 'charset' ); ?>">
